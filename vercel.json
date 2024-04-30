@@ -12,7 +12,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://ep-floral-leaf-a4vss6wt-pooler.us-east-1.aws.neon.tech",
-
+        "APP_KEY":"base64:5avN4KqMTBSTcrbvdvDSvLDftTorGcLaRfTyTh/rdAI=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
