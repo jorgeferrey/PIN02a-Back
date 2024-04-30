@@ -66,18 +66,18 @@ class UsuarioService
 
     public static function restoreTrashedUsuario(Usuario $usuario, int $id): JsonResource
     {
-        // Unlinks the logical deletion constraint and finds the model by its ID,
-        // including the logically deleted records.
+        // 
+        // 
         $restoredUsuario = $usuario->withTrashed()->findOrFail($id);
-        // Check if the deleted model was found
+        // 
         if ($restoredUsuario) {
-            // Restore the model
+            // Restaura el modelo
             $restoredUsuario->restore();
 
-            // Return the restored Person resource
+            // Return the restored usuario resource
             return new UsuarioResource($restoredUsuario);
         } else {
-            // Handle the case where the deleted model was not found.
+            // 
             throw new \Exception('No se encontró el usuario para restaurar');
         }
     }
