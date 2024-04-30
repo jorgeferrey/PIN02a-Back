@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('domicilio');
             $table->string('telefono');
             $table->string('email')->unique();
-            $table->text('contenido');
+            $table->text('contenido, 255');
             $table->timestamps();
             $table->softDeletes();
         });
