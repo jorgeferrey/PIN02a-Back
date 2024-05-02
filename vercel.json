@@ -18,7 +18,7 @@
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
-        
+
         "DB_URL":"postgres://default:31LUhiGmsfxk@ep-floral-leaf-a4vss6wt-pooler.us-east-1.aws.neon.tech/verceldb?sslmode=require",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
