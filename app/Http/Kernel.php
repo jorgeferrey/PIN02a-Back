@@ -67,18 +67,5 @@ class Kernel extends HttpKernel
     /** para habilitar cors
      * 
      */
-    protected $allowedCorsOrigins = [
-        'https://pin02a-front.vercel.app',
-    ];
-    
-    public function cors($request)
-    {
-        if (isset($this->allowedCorsOrigins[$request->headers->get('Origin')])) {
-            return response()->json([
-                'message' => 'Allowed Origin',
-            ])->header('Access-Control-Allow-Origin', $request->headers->get('Origin'));
-        }
-    
-        return parent::cors($request);
-    }
+       
 }

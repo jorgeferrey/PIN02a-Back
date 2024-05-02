@@ -11,7 +11,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://pin02a-back.vercel.app/",
+        "APP_URL": "https://pin02a-front.vercel.app/",
         "APP_KEY":"base64:qKjTLKY4e7NmNvmf86DiEhb3D56EO1RxBi2TyP5txsI=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
